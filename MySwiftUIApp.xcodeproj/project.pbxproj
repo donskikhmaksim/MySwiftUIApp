@@ -11,6 +11,14 @@
 		168D01DD2986D95C00E8750C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168D01DC2986D95C00E8750C /* ContentView.swift */; };
 		168D01DF2986D95E00E8750C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168D01DE2986D95E00E8750C /* Assets.xcassets */; };
 		168D01E22986D95E00E8750C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168D01E12986D95E00E8750C /* Preview Assets.xcassets */; };
+		168D01F02986D9C700E8750C /* HomeWorkViewTask2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168D01E82986D9C700E8750C /* HomeWorkViewTask2.swift */; };
+		168D01F12986D9C700E8750C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168D01E92986D9C700E8750C /* CircleImage.swift */; };
+		168D01F22986D9C700E8750C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168D01EA2986D9C700E8750C /* MapView.swift */; };
+		168D01F32986D9C700E8750C /* HomeWorkViewTask3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168D01EB2986D9C700E8750C /* HomeWorkViewTask3.swift */; };
+		168D01F42986D9C700E8750C /* HomeWorkViewTask4Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168D01EC2986D9C700E8750C /* HomeWorkViewTask4Details.swift */; };
+		168D01F52986D9C700E8750C /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168D01ED2986D9C700E8750C /* RoundedCorners.swift */; };
+		168D01F62986D9C700E8750C /* HomeWorkViewTask4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168D01EE2986D9C700E8750C /* HomeWorkViewTask4.swift */; };
+		168D01F72986D9C700E8750C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168D01EF2986D9C700E8750C /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		168D01DC2986D95C00E8750C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		168D01DE2986D95E00E8750C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		168D01E12986D95E00E8750C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		168D01E82986D9C700E8750C /* HomeWorkViewTask2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWorkViewTask2.swift; sourceTree = "<group>"; };
+		168D01E92986D9C700E8750C /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		168D01EA2986D9C700E8750C /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		168D01EB2986D9C700E8750C /* HomeWorkViewTask3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWorkViewTask3.swift; sourceTree = "<group>"; };
+		168D01EC2986D9C700E8750C /* HomeWorkViewTask4Details.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWorkViewTask4Details.swift; sourceTree = "<group>"; };
+		168D01ED2986D9C700E8750C /* RoundedCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		168D01EE2986D9C700E8750C /* HomeWorkViewTask4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWorkViewTask4.swift; sourceTree = "<group>"; };
+		168D01EF2986D9C700E8750C /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,14 @@
 			children = (
 				168D01DA2986D95C00E8750C /* MySwiftUIAppApp.swift */,
 				168D01DC2986D95C00E8750C /* ContentView.swift */,
+				168D01E92986D9C700E8750C /* CircleImage.swift */,
+				168D01E82986D9C700E8750C /* HomeWorkViewTask2.swift */,
+				168D01EB2986D9C700E8750C /* HomeWorkViewTask3.swift */,
+				168D01EE2986D9C700E8750C /* HomeWorkViewTask4.swift */,
+				168D01EC2986D9C700E8750C /* HomeWorkViewTask4Details.swift */,
+				168D01EA2986D9C700E8750C /* MapView.swift */,
+				168D01EF2986D9C700E8750C /* Model.swift */,
+				168D01ED2986D9C700E8750C /* RoundedCorners.swift */,
 				168D01DE2986D95E00E8750C /* Assets.xcassets */,
 				168D01E02986D95E00E8750C /* Preview Content */,
 			);
@@ -137,8 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				168D01F62986D9C700E8750C /* HomeWorkViewTask4.swift in Sources */,
 				168D01DD2986D95C00E8750C /* ContentView.swift in Sources */,
+				168D01F42986D9C700E8750C /* HomeWorkViewTask4Details.swift in Sources */,
+				168D01F12986D9C700E8750C /* CircleImage.swift in Sources */,
+				168D01F22986D9C700E8750C /* MapView.swift in Sources */,
+				168D01F72986D9C700E8750C /* Model.swift in Sources */,
+				168D01F52986D9C700E8750C /* RoundedCorners.swift in Sources */,
+				168D01F02986D9C700E8750C /* HomeWorkViewTask2.swift in Sources */,
 				168D01DB2986D95C00E8750C /* MySwiftUIAppApp.swift in Sources */,
+				168D01F32986D9C700E8750C /* HomeWorkViewTask3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
