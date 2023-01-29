@@ -8,10 +8,29 @@
 import SwiftUI
 
 @main
-struct MySwiftUIAppApp: App {
+struct SwiftUIAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                ContentView()
+                    .tabItem {
+                        Label("First", systemImage: "calendar")
+                    }
+                HomeWorkViewTask2()
+                    .tabItem {
+                        Label("Second", systemImage: "house")
+                    }
+                HomeWorkViewTask3()
+                    .badge(10)
+                    .tabItem {
+                        Label("Third", systemImage: "play")
+                    }
+                ModelList()
+                    .badge(10)
+                    .tabItem {
+                        Label("Forth", systemImage: "stop")
+                    }
+            }
         }
     }
 }
